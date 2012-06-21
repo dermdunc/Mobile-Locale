@@ -1,0 +1,60 @@
+/* Written by: Dermot Duncan 	    */  
+/* 	    HU ID: 70857251      		*/
+/*	    Email: dermduncan@gmail.com */
+body
+{
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+	background-color: #6C85A4;
+}
+
+h1
+{
+    background-color: #7C92AE;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ABB9CB), color-stop(0.5, #8C9FB8), color-stop(0.51, #7C92AE), to(#6C85A4));
+    color: #FFF;
+    font-size: 18px;
+    margin: 0;
+    padding: 6px;
+    text-align: center;
+}
+
+
+.errorMsg
+{
+    background-color: #FF3030;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.27, rgb(235,111,80)), color-stop(0.16, rgb(235,111,80)));
+    color: #000;
+    font-size: 12px;
+    margin: 0;
+    padding: 6px;
+    text-align: left;
+}
+.copyright
+{
+	background-color: #7C92AE;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.27, rgb(108,133,164)), color-stop(0.16, rgb(108,133,164)));
+    color: #FFF;
+    font-size: 9px;
+    margin: 0;
+    padding: 6px;
+    text-align: center;
+}
+
+.newsList {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.newsList li {
+	background: #ecfad7;
+	padding: 10px 20px 10px;
+	border-top: solid 1px #c4df9b;
+	cursor: pointer;
+}
+.newsList li:hover {
+	background: #f6ffe9;
+}
+.previousSearchesList {
+	width: 160px;
+}
